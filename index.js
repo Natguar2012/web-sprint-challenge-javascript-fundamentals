@@ -61,10 +61,15 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function animalNames(array){
+    let displayNames = []
+    array.forEach()
   }
-  
+
+// function animalNames(array) {
+//     const displayNames = [];
+//for(let i= 0; i < namesList.length; i++)
+
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
   The zoo needs a list of all their animal's names converted to lower case. 
@@ -72,10 +77,14 @@ const zooAnimals = [
   For example: ['jackal, asiatic', .....]
   */
 
-  function lowerCaseNames(/*Your Code Here*/){
+function lowerCaseNames(/*Your Code Here*/){
     /*Your Code Here*/
-  }
-  
+}
+
+// const lowerCaseNames = zooAnimals.map(function (item) {
+//   return item.animal_name.toLowerCase();
+// });
+// console.log(lowerCaseNames);
   
   /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁
   The zoo is concerned about animals with a lower population count. 
@@ -106,8 +115,8 @@ const zooAnimals = [
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-  function consume(/*Your Code Here */){
-    /*Your Code Here */
+  function consume(a, b, callbackCB){
+
   }
  
   
@@ -136,7 +145,24 @@ function greeting(/*Your Code Here */){
   // console.log(consume(10, 16, multiply)); // 160
   // console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
   
+
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions - make sure you comment out this section before you submit your work 🦁💪
  
 
@@ -206,22 +232,22 @@ class CuboidMakerTwo{
 
 
 
-  /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
-  function foo(){
-    //console.log('its working');
-    return 'bar';
-  }
-  export default{
-    foo,
-    summation,
-    animalNames,
-    lowerCaseNames,
-    lowPopulationAnimals,
-    USApop,
-    consume, 
-    add,
-    multiply,
-    greeting,
-    CuboidMaker,
-    CuboidMakerTwo
-  }
+/* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
+function foo(){
+  //console.log('its working');
+  return 'bar';
+}
+export default{
+  foo,
+  summation,
+  animalNames,
+  lowerCaseNames,
+  lowPopulationAnimals,
+  USApop,
+  consume, 
+  add,
+  multiply,
+  greeting,
+  CuboidMaker,
+  CuboidMakerTwo
+}
